@@ -10,10 +10,13 @@ export default function HomePage() {
   return <main className="bg-white">
     <NavBar/> 
     <HeroSection />
+    <div className="flex flex-col gap-[56px] mx-4 md:mx-[130px]">
     <BrowseTheRangeSection/>
     <OurProductSection />
     <RoomSections />
     <ShareSetupSection />
     <FooterSection />
+    </div>
+   
   </main>
 }
