@@ -11,4 +11,4 @@ function ShopProductSection() {
   )
 }
 
-export default ShopProductSection
+export default ShopProductSection;
