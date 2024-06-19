@@ -57,6 +57,17 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      backgroundImage: {
+        "hero": "url(/images/hero.jpg)",
+        "shop-hero": "url(/images/shop_hero.png)",
+     },
+     fontSize: {
+      "normal": "16px",
+      "header": "40px",
+      "large": "52px",
+      "20": "20px",
+      "24": "24px",
+   },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
