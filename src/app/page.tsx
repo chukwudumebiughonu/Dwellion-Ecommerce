@@ -14,9 +14,11 @@ export default function HomePage() {
     <BrowseTheRangeSection/>
     <OurProductSection />
     <RoomSections />
-    <ShareSetupSection />
-    <FooterSection />
     </div>
+    <div className="mt-[56px]">
+    <ShareSetupSection />
+    </div>
+    <FooterSection />
    
   </main>
 }
