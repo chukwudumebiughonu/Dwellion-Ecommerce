@@ -19,44 +19,13 @@ const config = {
     },
     extend: {
       colors: {
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        primary: "#B88E2F",
+        "primary-light": "#F9F1E7",
         customBlack: "#333333",
         customGray: "#666666",
         error: "#E97171",
-        success: "#2EC1AC",
-        "primary-light": "#F9F1E7",
-        primary: {
-          DEFAULT: "#B38E2F",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
-        },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
-        },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
+        success:"#2EC1AC",
+        customGray2: "#9F9F9F"
       },
       backgroundImage: {
         "hero": "url(/images/hero.jpg)",
@@ -69,11 +38,7 @@ const config = {
       "20": "20px",
       "24": "24px",
    },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
-      },
+  
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

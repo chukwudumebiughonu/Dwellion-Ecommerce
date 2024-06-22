@@ -18,7 +18,7 @@ export default function CartSection({
 
   const removeProductFromCart = (productId: number | string) => {
     const filteredProducts = products.filter(
-      (product) => product.id !== productId
+      (product ) => product.id !== productId
     );
     setProducts(filteredProducts);
   };
