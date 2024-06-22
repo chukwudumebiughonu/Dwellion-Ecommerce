@@ -28,6 +28,7 @@ const config = {
         customGray: "#666666",
         error: "#E97171",
         success: "#2EC1AC",
+        "primary-light": "#F9F1E7",
         primary: {
           DEFAULT: "#B38E2F",
           foreground: "hsl(var(--primary-foreground))",
