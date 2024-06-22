@@ -1,6 +1,6 @@
 function AboutPage() {
   return (
-    <div>AboutPage</div>
+    <div className="font-bold">Coming Soon!</div>
   )
 }
 
