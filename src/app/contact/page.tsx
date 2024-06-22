@@ -2,7 +2,7 @@ import React from 'react'
 
 function ConatactPage() {
   return (
-    <div>ConatactPage</div>
+    <div className="font-bold">Coming Soon!</div>
   )
 }
 
